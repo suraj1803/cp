@@ -7,12 +7,11 @@ int main() {
     cin >> n;
     vector<int> arr(n);
     for (int i = 0; i < n; i++) {
-    	cin >> arr[i];
+        cin >> arr[i];
+        cout << arr[i] << " ";
     }
+    cout << "\n";
 
-    for (auto &i: arr) {
-    	cout << i << endl;
-    }
 
     return 0;
 }
